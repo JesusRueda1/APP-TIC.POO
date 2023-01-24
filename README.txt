@@ -1,4 +1,7 @@
   Se crea un repositorio 
+   
+  - Estructuración de la app: 
+  
   Tenemos  inicialmente  3  carpetas
   coon nombre
   Administivo , configuracion, vigilante
