@@ -1,0 +1,15 @@
+@media (min-width: 1920px) {
+    .muñeco  {
+        margin-left:1700px;
+        
+    }
+}
+@media (max-width: 1920px) {
+    .muñeco {
+        margin-left:1700px;
+    }
+    .muñeco2 {
+        margin-left:1700px;
+    }
+    
+}

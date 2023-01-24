@@ -1,0 +1,152 @@
+/*Header*/
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    border-bottom: 1px solid #D5D9D9;
+    margin-top: 0;
+    padding-top: 0;
+}
+.header a{
+    font-size: 1em;
+    font-family: 'Quicksand', sans-serif;
+    color: #57a639;
+    padding: 0 10px; 
+    height: inherit; 
+    display: flex;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    margin-block-start: 3px;
+    margin-block-end: 3px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.logo img{
+    margin: 0px 0px 0px 5px ;
+    display: flex;
+    padding: 0;
+    border: 0;
+}
+.header ol{
+    margin-top: 10%;
+    list-style: none; 
+    display: flex; /*Sirve para poner la lista de elementos de la lista horizontalmente*/ 
+    height: inherit;
+}
+.header ol li{
+    height: inherit;
+}
+.link:hover {
+    color: white;
+    background-color: #57a639;
+    border: 0.5px solid #D5D9D9;
+}
+ol{
+    margin: 0;
+    padding: 0;
+}
+/*menu*/
+.menu{
+    height: inherit;
+}
+.menu li{
+    display: inline; /*para poner la lista en horizontal*/
+}
+/*Footer*/
+.footer{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border-top: 1px solid #D5D9D9;
+  margin-top: 0;
+  padding: 1em;
+}
+a:link{
+text-decoration: none;
+}
+.social{
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+}
+.footer-fb{
+background-image: url('../images/fb.ico');
+}
+.footer-twitter{
+background-image: url('../images/twitter.ico');
+}
+.footer-instagram{
+background-image: url('../images/instagram.ico');
+}
+.footer-github{
+background-image: url('../images/github.ico');
+}
+.footer-linkedin{
+    background-image: url('../images/linkedin.ico');
+}
+/*End Footer*/
+form{
+    text-align: center;
+}
+.tablita{
+    margin-top:  8%;    
+}
+/*Tablaaaaaa Estilos*/
+.tabla{
+    margin-top: 1%;
+    border-collapse: collapse; 
+    font-family: 'Quicksand', sans-serif;
+}
+table tr th{
+    border: 1px solid #D5D9D9;
+    width: 100px;
+    height: 25px;
+    color: white;
+    background-color: #57a639;
+}
+/* Para el estilo de las nuevas celdas */
+td {
+    border: 1px solid #D5D9D9;
+    width: 100px;
+    height: 25px;
+}
+.caja{
+    margin-top:  5%;    
+}
+.caja label{
+    margin-top:  5%;    
+    font-family: 'Quicksand', sans-serif;
+}
+.caja input{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;  
+}
+.submit{
+    width: 8em;
+    height: 2em;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    background-color: #57a639;
+    border: 2px solid white;
+}
+.enviar{
+    display: inline-block;
+    width:8em;
+    height: 2em;
+    background-color: #57a639;
+    color: white;
+    border: 2px solid white;
+}
+.enviar:hover{
+    color:white;
+    background-color: #58a639dd;
+}
