@@ -33,7 +33,7 @@
             </div>
             <a style="margin-right:15px;" class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="../configuracion/cambiar_contraseña.php">Cambiar contraseña</a></li> 
+                <li><a class="dropdown-item" href="../../configuracion/Cambio-contraseña/cambiar_contraseña.php">Cambiar contraseña</a></li> 
                 <li><hr class="dropdown-divider" /></li>
                 <li><a class="dropdown-item" href="../../Configuracion/Validar/cerrar_sesion.php">Cerrar Sesión</a></li>
             </ul>

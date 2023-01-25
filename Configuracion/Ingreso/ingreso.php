@@ -37,7 +37,7 @@ if(!$user=="" && !$pass==""){
                         echo "
                         <script>
                             alert('Error: no tiene rol asignado, comuniquese con el administrador!');
-                            location.href='../index.php';
+                            location.href='../../index.php';
                         </script>    
                         ";
                         break;
