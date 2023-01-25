@@ -7,20 +7,27 @@
 // Scripts
 // 
 
-window.addEventListener('DOMContentLoaded', event => {
+class Sidebar {
+    constructor() {
+        this.sidebarToggle = document.body.querySelector('#sidebarToggle');
+    }
 
-    // Toggle the side navigation
-    const sidebarToggle = document.body.querySelector('#sidebarToggle');
-    if (sidebarToggle) {
-        // Uncomment Below to persist sidebar toggle between refreshes
-        // if (localStorage.getItem('sb|sidebar-toggle') === 'true') {
-        //     document.body.classList.toggle('sb-sidenav-toggled');
-        // }
-        sidebarToggle.addEventListener('click', event => {
-            event.preventDefault();
-            document.body.classList.toggle('sb-sidenav-toggled');
-            localStorage.setItem('sb|sidebar-toggle', document.body.classList.contains('sb-sidenav-toggled'));
+    init() {
+        window.addEventListener('DOMContentLoaded', event => {
+            this.toggleSidebar();
         });
     }
 
-});
+    toggleSidebar() {
+        if (this.sidebarToggle) {
+            this.sidebarToggle.addEventListener('click', event => {
+                event.preventDefault();
+                document.body.classList.toggle('sb-sidenav-toggled');
+                localStorage.setItem('sb|sidebar-toggle', document.body.classList.contains('sb-sidenav-toggled'));
+            });
+        }
+    }
+}
+
+const sidebar = new Sidebar();
+sidebar.init();
